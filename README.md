@@ -42,4 +42,4 @@ http://localhost/api/auth/refresh_token/ - POST запрос для обновл
 Илья Ховрин
 
 # Стек
-python - django - postgreSQL - SimpleJWT - Docker
+python - django rest framework - postgreSQL - SimpleJWT - Docker
