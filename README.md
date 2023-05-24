@@ -2,9 +2,9 @@
 Тестовое задание для Gooddelo
 
 # Запуск проект
-Для запуска проект нужно клонировать репозиторий к себе на пк git clone git@github.com:Fiji-cosmo/gooddelo-test.git.
+Для запуска проект нужно клонировать репозиторий к себе на пк ```git clone git@github.com:Fiji-cosmo/gooddelo-test.git```
 
-Далее создать и активировать виртуальное окружение py -3.11 -m venv venv и активировать его source venv/Scripts/activate
+Далее создать и активировать виртуальное окружение ```py -3.11 -m venv venv``` и активировать его ```source venv/Scripts/activate```
 
 После этого собрать образы в контейнер командой docker-compose up -d --buil
 
