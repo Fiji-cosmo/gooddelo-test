@@ -6,6 +6,17 @@
 
 Далее создать и активировать виртуальное окружение ```py -3.11 -m venv venv``` и активировать его ```source venv/Scripts/activate```
 
+Создать файл .env
+```
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=aramud
+DB_HOST=db
+DB_PORT=5432
+SECRET_KEY='django-insecure-t1xz-o6f_eb3n=x&s%c^1nqrk2a7w84q__reoy1!y!n1-8=uvc'
+```
+
 После этого собрать образы в контейнер командой ```docker-compose up -d --buil```
 
 Сделать миграции ```docker-compose exec web python manage.py migrate```
