@@ -6,7 +6,7 @@
 
 Далее создать виртуальное окружение ```py -3.11 -m venv venv``` и активировать его ```source venv/Scripts/activate```
 
-Создать файл .env
+Создать файл .env в корне проекта
 ```
 DB_ENGINE=django.db.backends.postgresql
 DB_NAME=postgres
